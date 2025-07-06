@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Playwright Python Automation
 
 ## Project Structure
@@ -24,3 +25,7 @@ pytest --html=report.html --self-contained-html - if HTML report is needed
 - Add new page objects in `pages/`.
 - Add new test files in `tests/`.
 - Use and extend fixtures in `conftest.py`.
+=======
+# AirmTest
+Test Project AIRM Consulting
+>>>>>>> b0b2579f9e8504d1795dd7c43ba1eb195ea27331
