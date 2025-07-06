@@ -1,5 +1,3 @@
-# pages/login_page.py
-
 from playwright.sync_api import Page
 
 
@@ -36,7 +34,6 @@ class LoginPage:
         self.submit()
 
     def get_error_message(self):
-        # Adjust selector if your app displays error messages differently
         return self.page.inner_text('.login-error') if self.page.is_visible('.login-error') else None
 
     def clear_fields(self):
